@@ -1,0 +1,114 @@
+.profile-card-component{
+    display: flex;
+    height: 612px;
+    background-image: url('../../../../assets/imgs/profileBackground.png');
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.profile-card{
+    width: 750px;
+    height: 362px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    padding: 30px 30px 15px 30px;
+    box-sizing: border-box;
+}
+
+.profile-card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-card__img{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+}
+
+.profile-card__net{
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.profile-card-header{
+    display: flex;
+    gap: 47px;
+}
+
+.profile-card-description{
+    position: relative;
+    color: rgb(0, 6, 43);
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+.profile-card-description::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(235, 235, 235);;
+    background: rgb(255, 255, 255);
+}
+
+.profile-card-name{
+    color: rgb(0, 6, 43);
+    font-family: Roboto;
+    font-size: 23.3px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.profile-card-title{
+    color: rgb(0, 6, 43);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.profile-card-info{
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .profile-card-component{
+        height: 370px;
+    }
+    .profile-card{
+        width: 406px;
+        height: 362px;
+        padding: 30px 24px 15px 30px;
+    }
+    .profile-card-description{
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .profile-card__img{
+        width: 100px;
+        height: 100px;
+    }
+}

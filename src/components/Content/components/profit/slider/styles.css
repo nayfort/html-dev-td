@@ -1,0 +1,31 @@
+.irs-handle {
+    background-color: white !important;
+    border: 4px solid rgb(216, 30, 5) !important;
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    top: 18px !important;
+    z-index: 10000 !important;
+    cursor: grab;
+}
+.irs-handle.dragging {
+    cursor: grabbing;
+}
+.irs--flat .irs-handle>i:first-child {
+    background-color: white !important;
+    color: white !important;
+}
+.irs--flat .irs-bar {
+    height: 4px;
+    border-radius: 4px;
+    background: linear-gradient(90.00deg, rgb(216, 30, 5),rgb(201, 28, 4) 33.333%,rgb(201, 28, 4) 66.667%,rgb(216, 30, 5) 100%);
+}
+.irs--flat .irs-line {
+    height: 4px;
+}
+.irs-single {
+    background: rgb(216, 30, 5) !important;
+}
+.irs--flat .irs-single:before {
+    border-top-color: rgb(216, 30, 5) !important;
+}

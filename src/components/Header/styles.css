@@ -1,0 +1,26 @@
+.project-logo{
+    width: 79px;
+    height: 66px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 76px 33px 76px;
+}
+
+.header--links{
+    display: flex;
+    gap: 28px;
+}
+
+.mob-burger-menu{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 17px 37px 33px 28px;
+    }
+}

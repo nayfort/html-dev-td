@@ -1,0 +1,124 @@
+.interaction--picture{
+    width: 95px;
+    height: 95px;
+}
+.interaction--blocks{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 67px;
+}
+
+.interaction--st-block{
+    padding: 10px 3% 10px 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 370px;
+    box-sizing: border-box;
+}
+.interaction--mid-block{
+    border-left: 1px solid #EE1B25FF;
+    padding: 10px 3% 10px 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 370px;
+    box-sizing: border-box;
+}
+.interaction--last-block{
+    border-left: 1px solid #EE1B25FF;
+    padding: 10px 3% 10px 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 370px;
+    box-sizing: border-box;
+}
+
+.interaction--title{
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Roboto;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 53.2px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.interaction--button{
+    width: 333px;
+    height: 52px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px 0 rgba(0, 0, 0, 0.25);
+    background: rgb(210, 29, 5);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.interaction--blockTitle{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 36.8px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.interaction--blockDescr{
+    color: rgb(36, 36, 36);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 348px;
+}
+
+@media (max-width: 768px) {
+    .interaction--blocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .interaction--st-block {
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .interaction--mid-block{
+        border: none;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .interaction--last-block{
+        border: none;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .interaction--title{
+        margin-top: 58px;
+        color: rgba(0, 0, 0, 0.8);
+        font-family: Roboto;
+        font-size: 37px;
+        font-weight: 400;
+        line-height: 53.2px;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 38px;
+    }
+}

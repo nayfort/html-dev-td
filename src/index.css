@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+
+.app-link{
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.app-link-footer{
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.mb-pic{
+    width: 214px;
+    height: 55px;
+}
+.uc-pic{
+    width: 170px;
+    height: 34px;
+}
+.ib-pic{
+    width: 200px;
+    height: 47px;
+}
+.bd-pic{
+    width: 107px;
+    height: 72px;
+}
+.cc-pic{
+    width: 209px;
+    height: 32px;
+}
+
+.rectangle-pic{
+    width: 485px;
+    height: 223px;
+}
+
+.project-logo-pic{
+    width: 80px;
+    height: 65px;
+}
+
+@media (max-width: 768px) {
+    .mb-pic{
+        width: 126px;
+        height: 32px;
+    }
+    .uc-pic{
+        width: 100px;
+        height: 20px;
+    }
+    .ib-pic{
+        width: 118px;
+        height: 27px;
+    }
+    .bd-pic{
+        width: 61px;
+        height: 42px;
+    }
+    .cc-pic{
+        width: 123px;
+        height: 19px;
+    }
+    .rectangle-pic{
+        width: 356px;
+        height: 187px;
+    }
+    .project-logo-pic{
+        width: 47px;
+        height: 38px;
+    }
+}
